@@ -89,4 +89,7 @@ ENV/
 .ropeproject
 
 # Vim temporal filesi
-.swp
+*.swp
+
+# DB extensions
+*.sqlite3
