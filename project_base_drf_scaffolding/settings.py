@@ -43,7 +43,12 @@ LOCAL_APPS = [
     'polls'
 ]
 
+THIRD_PARTY_APPS = [
+    'drf_scaffolding'
+]
+
 INSTALLED_APPS += LOCAL_APPS
+INSTALLED_APPS += THIRD_PARTY_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
