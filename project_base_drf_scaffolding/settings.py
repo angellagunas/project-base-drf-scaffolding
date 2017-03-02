@@ -44,7 +44,9 @@ LOCAL_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
-    'drf_scaffolding'
+    'rest_framework',
+    'rest_framework_swagger',
+    'drf_scaffolding',
 ]
 
 INSTALLED_APPS += LOCAL_APPS
